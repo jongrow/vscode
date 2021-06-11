@@ -1,0 +1,275 @@
+
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+// .markdown-preview {
+  // modify your style here
+  // eg: background-color: blue;
+
+// }
+
+
+.markdown-preview {
+  margin: 0 auto;
+  max-width: 80%;
+  padding: 30px 15px 40px;
+  position: relative
+}
+
+.markdown-preview>* {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: '';
+}
+
+.markdown-preview>:first-child {
+  margin-top: 0!important
+}
+
+.markdown-preview hr {
+  border: none;
+  border-bottom: 1px solid #eee;
+  margin: 2em 0
+}
+
+.markdown-preview iframe {
+  border: 1px solid #eee;
+  width: 1px;
+  min-width: 100%
+}
+
+.markdown-preview table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  display: block;
+  margin-bottom: 1rem;
+  overflow: auto;
+  width: 100%
+}
+
+.markdown-preview th {
+  font-weight: 700
+}
+
+.markdown-preview td,.markdown-preview th {
+  border: 1px solid #ddd;
+  padding: 6px 13px
+}
+
+.markdown-preview tr {
+  border-top: 1px solid #ccc
+}
+
+.markdown-preview p.tip,.markdown-preview tr:nth-child(2n) {
+  background-color: #f8f8f8
+}
+
+.markdown-preview p.tip {
+  border-bottom-right-radius: 2px;
+  border-left: 4px solid #f66;
+  border-top-right-radius: 2px;
+  margin: 2em 0;
+  padding: 12px 24px 12px 30px;
+  position: relative
+}
+
+.markdown-preview p.tip:before {
+  background-color: #f66;
+  border-radius: 100%;
+  color: #fff;
+  content: "!";
+  font-family: Dosis,Source Sans Pro,Helvetica Neue,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  left: -12px;
+  line-height: 20px;
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  top: 14px
+}
+
+.markdown-preview p.tip code {
+  background-color: #efefef
+}
+
+.markdown-preview p.tip em {
+  color: #34495e
+}
+
+.markdown-preview p.warn {
+  background: rgba(66,185,131,.1);
+  border-radius: 2px;
+  padding: 1rem
+}
+
+.markdown-preview ul.task-list>li {
+  list-style-type: none
+}
+
+.markdown-preview h1,.markdown-preview h2,.markdown-preview h3,.markdown-preview h4,.markdown-preview strong {
+  color: #2c3e50;
+  font-weight: bold
+}
+
+.markdown-preview a {
+  color: var(--theme-color,#42b983);
+  font-weight: 600
+}
+
+.markdown-preview h1 {
+  font-size: 20px;
+  line-height:35px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /* 一级标题内容 */
+  border-bottom:1px solid #b8cacc
+}
+
+.markdown-preview h2 {
+  font-size: 19px;
+  margin: 45px 0 .8rem
+}
+
+.markdown-preview h3 {
+  font-size: 18px;
+  margin: 40px 0 .6rem
+}
+
+.markdown-preview h4 {
+  font-size: 17px
+}
+
+.markdown-preview h5 {
+  font-size: 1rem
+}
+
+.markdown-preview h6 {
+  color: #777;
+  font-size: 1rem
+}
+
+.markdown-preview figure,.markdown-preview p {
+  margin: 1.2em 0
+}
+
+.markdown-preview ol,.markdown-preview p,.markdown-preview ul {
+  line-height: 1.6rem;
+  word-spacing: .05rem
+}
+
+.markdown-preview ol,.markdown-preview ul {
+  padding-left: 1.5rem
+}
+
+.markdown-preview blockquote {
+  border-left: 4px solid var(--theme-color,#42b983);
+  color: #858585;
+  margin: 2em 0;
+  padding-left: 20px
+}
+
+.markdown-preview blockquote p {
+  font-weight: 200;
+  margin-left: 0
+}
+
+.markdown-preview iframe {
+  margin: 1em 0
+}
+
+.markdown-preview em {
+  color: #7f8c8d
+}
+
+.markdown-preview code,.markdown-preview output:after,.markdown-preview pre {
+  font-family: Roboto Mono,Monaco,courier,monospace
+}
+
+.markdown-preview code,.markdown-preview pre {
+  background-color: #f8f8f8
+}
+
+.markdown-preview output,.markdown-preview pre {
+  margin: 1.2em 0;
+  position: relative
+}
+
+.markdown-preview output,.markdown-preview pre>code {
+  border-radius: 2px;
+  display: block
+}
+
+.markdown-preview output:after,.markdown-preview pre>code {
+  -moz-osx-font-smoothing: initial;
+  -webkit-font-smoothing: initial
+}
+
+.markdown-preview code {
+  border-radius: 2px;
+  color: #e96900;
+  margin: 0 2px;
+  padding: 3px 5px;
+  white-space: pre-wrap
+}
+
+.markdown-preview>:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) code {
+  font-size: 11px
+}
+
+.markdown-preview pre {
+  padding: 0 1.4rem;
+  line-height: 1.5rem;
+  overflow: auto;
+  word-wrap: normal
+}
+
+.markdown-preview mark {
+  color: red;
+  font-weight: bold;
+  background-color: white;
+}
+
+.markdown-preview pre>code {
+  color: #525252;
+  font-size: .8rem;
+  padding: 2.2em 5px;
+  line-height: inherit;
+  margin: 0 2px;
+  max-width: inherit;
+  overflow: inherit;
+  white-space: inherit
+}
+
+.markdown-preview output {
+  padding: 1.7rem 1.4rem;
+  border: 1px dotted #ccc
+}
+
+.markdown-preview output>:first-child {
+  margin-top: 0
+}
+
+.markdown-preview output>:last-child {
+  margin-bottom: 0
+}
+
+.markdown-preview code:after,.markdown-preview code:before,.markdown-preview output:after,.markdown-preview output:before {
+  letter-spacing: .05rem
+}
+
+.markdown-preview output:after,.markdown-preview pre:after {
+  color: #ccc;
+  font-size: .6rem;
+  font-weight: 600;
+  height: 15px;
+  line-height: 15px;
+  padding: 5px 10px 0;
+  position: absolute;
+  right: 0;
+  text-align: right;
+  top: 0;
+  content: attr(data-lang)
+}
+
